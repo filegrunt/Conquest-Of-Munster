@@ -7,14 +7,7 @@ setup(
     description = 'Python test package',
     license='GPL v3',
     author = 'my name',
-    packages = ['src'],
-    package_data={'src': ['description.txt']
-                 },
-    install_requires=['future'],
-    entry_points = {
-        'console_scripts': [
-            'hello=src.app:main']
-            },
+    install_requires=[],
     classifiers = ['Operating System :: OS Independent',
             'Programming Language :: Python :: 2.7',
             'Programming Language :: Python :: 3.6',
