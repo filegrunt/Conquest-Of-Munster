@@ -12,4 +12,4 @@ parts:
   conquest:
     # See 'snapcraft plugins'
     plugin: python
-    source: https://github.com/filegrunt/Conquest-Of-Munster.git
+    source: .
